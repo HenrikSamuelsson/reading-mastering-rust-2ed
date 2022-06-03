@@ -42,3 +42,10 @@ Current installation options:
 ```
 
 Choosed 1 to proceed with the installation. There was some downloads and then a message that Rust was installed.
+
+Closed the current command prompt and opened a new command prompt. Checked the Rust version and got the answer 1.61.0:
+
+```txt
+H:\>rustc --version
+rustc 1.61.0 (fe5b13d68 2022-05-18)
+```
