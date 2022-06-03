@@ -53,5 +53,5 @@ rustc 1.61.0 (fe5b13d68 2022-05-18)
 Noted that if want to uninstall in the future so is the command for this:
 
 ```txt
-rustup self uninstall`
+rustup self uninstall
 ```
