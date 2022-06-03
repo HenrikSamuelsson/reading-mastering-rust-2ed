@@ -8,17 +8,19 @@ Notes and code related to reading the book Mastering Rust, second edition, writt
 
 Downloaded rust installation file for windows. Exact file was called RUSTUP-INIT.EXE (64-BIT) from [rust-lang.org](www.rust-lang.org/tools/install).
 
+Ran the downloaded installer. Got the below message.
+
 ```txt
 The Cargo home directory located at:
 
-  C:\Users\u064837\.cargo
+  C:\Users\XXX\.cargo
 
 This can be modified with the CARGO_HOME environment variable.
 
 The cargo, rustc, rustup and other commands will be added to
 Cargo's bin directory, located at:
 
-  C:\Users\u064837\.cargo\bin
+  C:\Users\XXX\.cargo\bin
 
 This path will then be added to your PATH environment variable by
 modifying the HKEY_CURRENT_USER/Environment/PATH registry key.
@@ -38,3 +40,5 @@ Current installation options:
 2) Customize installation
 3) Cancel installation
 ```
+
+Choosed 1 to proceed with the installation. There was some downloads and then a message that Rust was installed.
