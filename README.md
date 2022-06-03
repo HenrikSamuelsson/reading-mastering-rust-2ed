@@ -56,7 +56,7 @@ Noted that if want to uninstall in the future so is the command for this:
 rustup self uninstall
 ```
 
-Tested a command to runa script that updates Rust, there were no updates available at this point in time:
+Tested a command to run a script that updates Rust, there were no updates available at this point in time:
 
 ```txt
 rustup update
