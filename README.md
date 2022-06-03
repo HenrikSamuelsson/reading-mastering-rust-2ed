@@ -49,3 +49,5 @@ Closed the current command prompt and opened a new command prompt. Checked the R
 H:\>rustc --version
 rustc 1.61.0 (fe5b13d68 2022-05-18)
 ```
+
+If want to uninstall in the future so is the command `rustup self uninstall`. 
