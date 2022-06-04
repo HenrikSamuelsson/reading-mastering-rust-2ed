@@ -41,12 +41,12 @@ Current installation options:
 3) Cancel installation
 ```
 
-Choosed 1 to proceed with the installation. There was some downloads and then a message that Rust was installed.
+Chose 1 to proceed with the installation. There was some downloads and then a message that Rust was installed.
 
 Closed the current installer console window and opened another console window. Checked the Rust version and got the answer 1.61.0:
 
 ```txt
-H:\>rustc --version
+$ H:\>rustc --version
 rustc 1.61.0 (fe5b13d68 2022-05-18)
 ```
 
@@ -60,4 +60,46 @@ Tested a command to run a script that updates Rust, there were no updates availa
 
 ```txt
 rustup update
+```
+
+### 2022-06-04
+
+Tested to create a project with Cargo, which is Rust's build system.
+
+First checked the Cargo installation by reading out the version:
+
+```txt
+$ cargo --version
+cargo 1.61.0 (a028ae42f 2022-04-29)
+```
+
+Created a new project using Cargo:
+
+```txt
+$ cargo new hello_cargo
+(no output but sub-folders and code was created)
+```
+
+Built the project using Cargo:
+
+```txt
+$ cargo build
+   Compiling hello_cargo v0.1.0 (C:\git_repos\reading-mastering-rust-2ed\projects\hello_cargo)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.23s
+```
+
+Run the created executable:
+
+```txt
+$ .\target\debug\hello_cargo.exe
+Hello, world!
+```
+
+Tested secondary way to run the executable:
+
+```txt
+$ cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\hello_cargo.exe`
+Hello, world!
 ```
