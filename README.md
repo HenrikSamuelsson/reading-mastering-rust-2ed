@@ -103,3 +103,12 @@ $ cargo run
      Running `target\debug\hello_cargo.exe`
 Hello, world!
 ```
+
+### 2022-06-05
+
+Created a new project for the exercise from chapter 2:
+
+```txt
+cargo new word_counter   
+     Created binary (application) `word_counter` package
+```
