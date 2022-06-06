@@ -1,0 +1,2 @@
+input file to word counter
+a program that counts word

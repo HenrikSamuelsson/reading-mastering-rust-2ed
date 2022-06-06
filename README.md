@@ -106,9 +106,51 @@ Hello, world!
 
 ### 2022-06-05
 
-Created a new project for the exercise from chapter 2:
+Created a new project for the exercise from chapter 1:
 
 ```txt
 cargo new word_counter   
      Created binary (application) `word_counter` package
 ```
+
+### 2022-06-06
+
+The code snippet taken from the book have errors, the goal of the word_counter exercise is to fix these errors.
+
+First error:
+
+```txt
+failed to resolve: use of undeclared type `HashMap`
+```
+
+Imported HashMap to fix this error:
+
+```rust
+use std::collections::HashMap;
+```
+
+Added a self parameter to the increment function.
+
+Fixed the spelling error of the variable filename.
+
+Got some more errors and fixed these by following the instructions from the compiler.
+
+Created a file called word_file.txt at the root of the project with the intention to run this file. Provided the argument like this:
+
+```txt
+$ cargo run word_file.txt
+Finished dev [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target\debug\word_counter.exe word_file.txt`
+Processing file: word_file.txt
+counts: 1
+file: 1
+program: 1
+counter: 1
+a: 1
+input: 1
+to: 1
+word: 2
+that: 1
+```
+
+Program seems to count the words in the file correctly.
